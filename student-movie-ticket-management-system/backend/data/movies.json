@@ -1,0 +1,42 @@
+[
+  {
+    "movieId": "MOV001",
+    "title": "Avengers: Endgame",
+    "genre": "Hành động, Phiêu lưu",
+    "duration": 181,
+    "ageLimit": 13,
+    "status": "SHOWING"
+  },
+  {
+    "movieId": "MOV002",
+    "title": "Spider-Man: No Way Home",
+    "genre": "Hành động, Giả tưởng",
+    "duration": 148,
+    "ageLimit": 13,
+    "status": "SHOWING"
+  },
+  {
+    "movieId": "MOV003",
+    "title": "Đất rừng phương Nam",
+    "genre": "Tâm lý, Chiến tranh",
+    "duration": 120,
+    "ageLimit": 16,
+    "status": "SHOWING"
+  },
+  {
+    "movieId": "MOV004",
+    "title": "Cô gái đến từ hôm qua",
+    "genre": "Tình cảm, Hài",
+    "duration": 110,
+    "ageLimit": 13,
+    "status": "STOPPED"
+  },
+  {
+    "movieId": "MOV005",
+    "title": "Doraemon: Nobita và cuộc chiến vũ trụ",
+    "genre": "Hoạt hình, Phiêu lưu",
+    "duration": 95,
+    "ageLimit": 0,
+    "status": "STOPPED"
+  }
+]

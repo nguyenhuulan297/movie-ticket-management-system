@@ -1,0 +1,14 @@
+[
+  { "seatId": "SEAT001", "seatNumber": "A1", "seatType": "NORMAL", "status": "AVAILABLE", "showtimeId": "ST001" },
+  { "seatId": "SEAT002", "seatNumber": "A2", "seatType": "NORMAL", "status": "AVAILABLE", "showtimeId": "ST001" },
+  { "seatId": "SEAT003", "seatNumber": "B1", "seatType": "DOUBLE", "status": "AVAILABLE", "showtimeId": "ST001" },
+  { "seatId": "SEAT004", "seatNumber": "C1", "seatType": "VIP", "status": "AVAILABLE", "showtimeId": "ST001" },
+  { "seatId": "SEAT005", "seatNumber": "A1", "seatType": "NORMAL", "status": "AVAILABLE", "showtimeId": "ST002" },
+  { "seatId": "SEAT006", "seatNumber": "A2", "seatType": "NORMAL", "status": "AVAILABLE", "showtimeId": "ST002" },
+  { "seatId": "SEAT007", "seatNumber": "B1", "seatType": "DOUBLE", "status": "AVAILABLE", "showtimeId": "ST002" },
+  { "seatId": "SEAT008", "seatNumber": "C1", "seatType": "VIP", "status": "AVAILABLE", "showtimeId": "ST002" },
+  { "seatId": "SEAT009", "seatNumber": "A1", "seatType": "NORMAL", "status": "AVAILABLE", "showtimeId": "ST003" },
+  { "seatId": "SEAT010", "seatNumber": "B1", "seatType": "DOUBLE", "status": "AVAILABLE", "showtimeId": "ST003" },
+  { "seatId": "SEAT011", "seatNumber": "C1", "seatType": "VIP", "status": "AVAILABLE", "showtimeId": "ST003" },
+  { "seatId": "SEAT012", "seatNumber": "A1", "seatType": "NORMAL", "status": "AVAILABLE", "showtimeId": "ST004" }
+]

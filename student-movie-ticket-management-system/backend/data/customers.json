@@ -1,0 +1,43 @@
+[
+  {
+    "userId": "CUS001",
+    "fullName": "Nguyễn Văn An",
+    "phone": "0901234567",
+    "email": "an.nguyen@email.com",
+    "customerType": "NORMAL"
+  },
+  {
+    "userId": "CUS002",
+    "fullName": "Trần Thị Bình",
+    "phone": "0912345678",
+    "email": "binh.tran@email.com",
+    "customerType": "NORMAL"
+  },
+  {
+    "userId": "CUS003",
+    "fullName": "Lê Minh Cường",
+    "phone": "0923456789",
+    "email": "cuong.le@student.edu.vn",
+    "customerType": "STUDENT",
+    "studentId": "SV123456",
+    "schoolName": "Đại học Bách Khoa"
+  },
+  {
+    "userId": "CUS004",
+    "fullName": "Phạm Thị Dung",
+    "phone": "0934567890",
+    "email": "dung.pham@student.edu.vn",
+    "customerType": "STUDENT",
+    "studentId": "SV654321",
+    "schoolName": "Đại học Khoa học Tự nhiên"
+  },
+  {
+    "userId": "CUS005",
+    "fullName": "Hoàng Văn Em",
+    "phone": "0945678901",
+    "email": "em.hoang@vip.com",
+    "customerType": "VIP",
+    "memberSince": "2024-01-15",
+    "pointBalance": 350
+  }
+]

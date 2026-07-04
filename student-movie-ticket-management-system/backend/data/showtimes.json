@@ -1,0 +1,50 @@
+[
+  {
+    "showtimeId": "ST001",
+    "movieId": "MOV001",
+    "room": {
+      "roomId": "RM001",
+      "roomName": "Phòng chiếu số 1",
+      "totalSeats": 50
+    },
+    "startTime": "2026-07-05 14:00:00",
+    "endTime": "2026-07-05 17:01:00",
+    "basePrice": 80000
+  },
+  {
+    "showtimeId": "ST002",
+    "movieId": "MOV001",
+    "room": {
+      "roomId": "RM002",
+      "roomName": "Phòng chiếu số 2",
+      "totalSeats": 40
+    },
+    "startTime": "2026-07-05 19:00:00",
+    "endTime": "2026-07-05 22:01:00",
+    "basePrice": 90000
+  },
+  {
+    "showtimeId": "ST003",
+    "movieId": "MOV002",
+    "room": {
+      "roomId": "RM001",
+      "roomName": "Phòng chiếu số 1",
+      "totalSeats": 50
+    },
+    "startTime": "2026-07-06 10:00:00",
+    "endTime": "2026-07-06 12:28:00",
+    "basePrice": 75000
+  },
+  {
+    "showtimeId": "ST004",
+    "movieId": "MOV003",
+    "room": {
+      "roomId": "RM003",
+      "roomName": "Phòng chiếu VIP",
+      "totalSeats": 30
+    },
+    "startTime": "2026-07-06 15:30:00",
+    "endTime": "2026-07-06 17:30:00",
+    "basePrice": 85000
+  }
+]
