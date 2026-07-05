@@ -1,11 +1,13 @@
 package handler;
 
-import model.Ticket;
+import model.Booking;
 import service.BookingService;
 import exception.*;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
 
 @RestController
 @RequestMapping("/api/bookings")
@@ -18,15 +20,14 @@ public class BookingHandler {
     }
 
     @PostMapping
-    public ResponseEntity<?> bookTicket(@RequestBody BookingRequest request) {
+    public ResponseEntity<?> bookTickets(@RequestBody BookingRequest request) {
         try {
-            Ticket ticket = bookingService.bookTicket(
+            Booking booking = bookingService.bookTickets(
                     request.getCustomerId(),
                     request.getShowtimeId(),
-                    request.getSeatId(),
-                    request.getPaymentType()
+                    request.getSeatIds()
             );
-            return ResponseEntity.ok(ticket);
+            return ResponseEntity.ok(booking);
         } catch (CustomerNotFoundException | ShowtimeNotFoundException | SeatNotFoundException e) {
             return ResponseEntity.status(HttpStatus.NOT_FOUND).body(e.getMessage());
         } catch (SeatAlreadyBookedException e) {
@@ -43,19 +44,13 @@ public class BookingHandler {
     static class BookingRequest {
         private String customerId;
         private String showtimeId;
-        private String seatId;
-        private String paymentType;
+        private List<String> seatIds;   // <-- nhiều ghế cho 1 lần đặt
 
         public String getCustomerId() { return customerId; }
         public void setCustomerId(String customerId) { this.customerId = customerId; }
-
         public String getShowtimeId() { return showtimeId; }
         public void setShowtimeId(String showtimeId) { this.showtimeId = showtimeId; }
-
-        public String getSeatId() { return seatId; }
-        public void setSeatId(String seatId) { this.seatId = seatId; }
-
-        public String getPaymentType() { return paymentType; }
-        public void setPaymentType(String paymentType) { this.paymentType = paymentType; }
+        public List<String> getSeatIds() { return seatIds; }
+        public void setSeatIds(List<String> seatIds) { this.seatIds = seatIds; }
     }
 }

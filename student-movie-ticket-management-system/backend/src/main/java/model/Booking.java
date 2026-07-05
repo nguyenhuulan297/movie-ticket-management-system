@@ -6,32 +6,33 @@ public class Booking {
     private String bookingId;
     private Customer customer;
     private Showtime showtime;
-    private List<Seat> seats;
+    private List<Ticket> tickets;
+    private double totalPrice;
     private String bookingTime;
 
     public Booking() {}
 
-    public Booking(String bookingId, Customer customer, Showtime showtime, List<Seat> seats, String bookingTime) {
+    public Booking(String bookingId, Customer customer, Showtime showtime,
+                   List<Ticket> tickets, double totalPrice, String bookingTime) {
         this.bookingId = bookingId;
         this.customer = customer;
         this.showtime = showtime;
-        this.seats = seats;
+        this.tickets = tickets;
+        this.totalPrice = totalPrice;
         this.bookingTime = bookingTime;
     }
 
     // Getters & Setters
     public String getBookingId() { return bookingId; }
     public void setBookingId(String bookingId) { this.bookingId = bookingId; }
-
     public Customer getCustomer() { return customer; }
     public void setCustomer(Customer customer) { this.customer = customer; }
-
     public Showtime getShowtime() { return showtime; }
     public void setShowtime(Showtime showtime) { this.showtime = showtime; }
-
-    public List<Seat> getSeats() { return seats; }
-    public void setSeats(List<Seat> seats) { this.seats = seats; }
-
+    public List<Ticket> getTickets() { return tickets; }
+    public void setTickets(List<Ticket> tickets) { this.tickets = tickets; }
+    public double getTotalPrice() { return totalPrice; }
+    public void setTotalPrice(double totalPrice) { this.totalPrice = totalPrice; }
     public String getBookingTime() { return bookingTime; }
     public void setBookingTime(String bookingTime) { this.bookingTime = bookingTime; }
 
@@ -41,7 +42,8 @@ public class Booking {
                 "bookingId='" + bookingId + '\'' +
                 ", customer=" + (customer != null ? customer.getUserId() : null) +
                 ", showtime=" + (showtime != null ? showtime.getShowtimeId() : null) +
-                ", seatsCount=" + (seats != null ? seats.size() : 0) +
+                ", ticketsCount=" + (tickets != null ? tickets.size() : 0) +
+                ", totalPrice=" + totalPrice +
                 ", bookingTime='" + bookingTime + '\'' +
                 '}';
     }

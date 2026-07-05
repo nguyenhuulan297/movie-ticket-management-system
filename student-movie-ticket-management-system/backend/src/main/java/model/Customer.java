@@ -1,61 +1,20 @@
-package com.example.movieticket.handler;
+package model;
 
-import com.example.movieticket.model.Ticket;
-import com.example.movieticket.service.BookingService;
-import com.example.movieticket.exception.*;
-import org.springframework.http.HttpStatus;
-import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.*;
+public abstract class Customer extends User {
+    private CustomerType customerType;
 
-@RestController
-@RequestMapping("/api/bookings")
-public class BookingHandler {
+    public Customer() {}
 
-    private final BookingService bookingService;
-
-    public BookingHandler(BookingService bookingService) {
-        this.bookingService = bookingService;
+    public Customer(String userId, String fullName, String phone, String email, CustomerType customerType) {
+        super(userId, fullName, phone, email);
+        this.customerType = customerType;
     }
 
-    @PostMapping
-    public ResponseEntity<?> bookTicket(@RequestBody BookingRequest request) {
-        try {
-            Ticket ticket = bookingService.bookTicket(
-                    request.getCustomerId(),
-                    request.getShowtimeId(),
-                    request.getSeatId(),
-                    request.getPaymentType()
-            );
-            return ResponseEntity.ok(ticket);
-        } catch (CustomerNotFoundException | ShowtimeNotFoundException | SeatNotFoundException e) {
-            return ResponseEntity.status(HttpStatus.NOT_FOUND).body(e.getMessage());
-        } catch (SeatAlreadyBookedException e) {
-            return ResponseEntity.status(HttpStatus.CONFLICT).body(e.getMessage());
-        } catch (MovieNotShowingException | IllegalArgumentException e) {
-            return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(e.getMessage());
-        } catch (Exception e) {
-            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR)
-                    .body("Lỗi hệ thống: " + e.getMessage());
-        }
-    }
+    public CustomerType getCustomerType() { return customerType; }
+    public void setCustomerType(CustomerType customerType) { this.customerType = customerType; }
 
-    // DTO cho request body
-    static class BookingRequest {
-        private String customerId;
-        private String showtimeId;
-        private String seatId;
-        private String paymentType;
-
-        public String getCustomerId() { return customerId; }
-        public void setCustomerId(String customerId) { this.customerId = customerId; }
-
-        public String getShowtimeId() { return showtimeId; }
-        public void setShowtimeId(String showtimeId) { this.showtimeId = showtimeId; }
-
-        public String getSeatId() { return seatId; }
-        public void setSeatId(String seatId) { this.seatId = seatId; }
-
-        public String getPaymentType() { return paymentType; }
-        public void setPaymentType(String paymentType) { this.paymentType = paymentType; }
+    @Override
+    public String toString() {
+        return super.toString() + ", customerType=" + customerType;
     }
 }
