@@ -1,6 +1,7 @@
 package utils;
 
 import java.io.IOException;
+import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
@@ -21,9 +22,9 @@ public class FileUtils {
             Path filePath = Paths.get(path);
             if (!Files.exists(filePath)) {
                 ensureParentDirExists(filePath);
-                Files.write(filePath, "[]".getBytes());
+                Files.write(filePath, "[]".getBytes(StandardCharsets.UTF_8));
             }
-            return new String(Files.readAllBytes(filePath));
+            return new String(Files.readAllBytes(filePath), StandardCharsets.UTF_8);
         } catch (IOException e) {
             throw new RuntimeException("Lỗi đọc file: " + path, e);
         }
@@ -33,7 +34,7 @@ public class FileUtils {
         try {
             Path filePath = Paths.get(path);
             ensureParentDirExists(filePath);
-            Files.write(filePath, content.getBytes());
+            Files.write(filePath, content.getBytes(StandardCharsets.UTF_8));
         } catch (IOException e) {
             throw new RuntimeException("Lỗi ghi file: " + path, e);
         }

@@ -28,6 +28,7 @@
     </scm>
     <properties>
         <java.version>21</java.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
     <dependencies>
         <dependency>
@@ -57,5 +58,35 @@
             </plugin>
         </plugins>
     </build>
+
+    <profiles>
+        <!--
+            Profile tạm thời, KHÔNG bật mặc định. Dùng để build/test những module đã xong
+            trong khi các file phụ thuộc vào module chưa hoàn thành (Showtime, CustomerService,
+            TicketPricePolicy...) vẫn còn lỗi biên dịch. Chạy: mvnw test -P wip-exclude
+            Khi cả nhóm hoàn thành, xóa profile này và dùng `mvnw test` bình thường.
+        -->
+        <profile>
+            <id>wip-exclude</id>
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-compiler-plugin</artifactId>
+                        <configuration>
+                            <excludes>
+                                <exclude>**/Booking.java</exclude>
+                                <exclude>**/Ticket.java</exclude>
+                                <exclude>**/TicketRepository.java</exclude>
+                                <exclude>**/BookingService.java</exclude>
+                                <exclude>**/BookingHandler.java</exclude>
+                                <exclude>**/IPaymentMethod.java</exclude>
+                            </excludes>
+                        </configuration>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+    </profiles>
 
 </project>
