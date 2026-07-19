@@ -4,15 +4,55 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3e130280-2ac4-4cd4-8ea6-841f270026e1" name="Changes" comment="" />
+    <list default="true" id="3e130280-2ac4-4cd4-8ea6-841f270026e1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie-ticket-management-system/student-movie-ticket-management-system/backend/src/main/java/model/Payment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie-ticket-management-system/student-movie-ticket-management-system/backend/src/main/java/repository/PaymentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie-ticket-management-system/student-movie-ticket-management-system/backend/src/main/java/service/PaymentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie-ticket-management-system/student-movie-ticket-management-system/backend/src/main/java/service/payment/BankTransferPayment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie-ticket-management-system/student-movie-ticket-management-system/backend/src/main/java/service/payment/CashPayment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie-ticket-management-system/student-movie-ticket-management-system/backend/src/main/java/service/payment/EWalletPayment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie-ticket-management-system/student-movie-ticket-management-system/backend/src/main/java/service/payment/PaymentMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-management.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/movie-ticket-management-system" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "history": [
+    {
+      "searchQuery": "git clone https://github.com/nguyenhuulan297/movie-ticket-management-system.git",
+      "state": "OPEN",
+      "assignee": "khoadevie"
+    }
+  ],
+  "lastFilter": {
+    "searchQuery": "git clone https://github.com/nguyenhuulan297/movie-ticket-management-system.git",
+    "state": "OPEN",
+    "assignee": "khoadevie"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/khoadevie/bt2.git&quot;,
+    &quot;accountId&quot;: &quot;aece7ef7-ad29-41dc-a48d-9cacfd040a4a&quot;
+  }
+}</component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -24,23 +64,34 @@
   &quot;associatedIndex&quot;: 2
 }</component>
   <component name="ProjectId" id="3BSkL6Q0KLKMlIoQWcAS3oy2A7w" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/admin/Downloads/product-management&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
-    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/admin/Downloads/product-management",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="ProductManagementApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="product-management" />
@@ -66,7 +117,8 @@
       <option name="presentableId" value="Default" />
       <updated>1774489799459</updated>
       <workItem from="1774489800961" duration="142000" />
-      <workItem from="1774490068386" duration="60000" />
+      <workItem from="1774490068386" duration="348000" />
+      <workItem from="1784472772193" duration="2437000" />
     </task>
     <servers />
   </component>
