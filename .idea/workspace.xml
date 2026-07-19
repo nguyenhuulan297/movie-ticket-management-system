@@ -13,7 +13,16 @@
       <change afterPath="$PROJECT_DIR$/movie-ticket-management-system/student-movie-ticket-management-system/backend/src/main/java/service/payment/CashPayment.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/movie-ticket-management-system/student-movie-ticket-management-system/backend/src/main/java/service/payment/EWalletPayment.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/movie-ticket-management-system/student-movie-ticket-management-system/backend/src/main/java/service/payment/PaymentMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/student-movie-ticket-management-system/backend/src/main/java/handler/PaymentHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/student-movie-ticket-management-system/backend/src/main/java/model/Payment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/student-movie-ticket-management-system/backend/src/main/java/repository/PaymentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/student-movie-ticket-management-system/backend/src/main/java/service/PaymentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/student-movie-ticket-management-system/backend/src/main/java/service/payment/BankTransferPayment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/student-movie-ticket-management-system/backend/src/main/java/service/payment/CashPayment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/student-movie-ticket-management-system/backend/src/main/java/service/payment/EWalletPayment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/student-movie-ticket-management-system/backend/src/main/java/service/payment/PaymentMethod.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-management.iml" beforeDir="false" afterPath="$PROJECT_DIR$/product-management.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +37,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/movie-ticket-management-system" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;history&quot;: [
@@ -76,7 +85,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "feature/tv5",
     "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/admin/Downloads/product-management",
@@ -117,7 +126,7 @@
       <workItem from="1774489800961" duration="142000" />
       <workItem from="1774490068386" duration="348000" />
       <workItem from="1784472772193" duration="4412000" />
-      <workItem from="1784477229487" duration="1497000" />
+      <workItem from="1784477229487" duration="2215000" />
     </task>
     <servers />
   </component>

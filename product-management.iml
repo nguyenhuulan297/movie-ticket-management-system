@@ -3,6 +3,7 @@
   <component name="AdditionalModuleElements">
     <content url="file://$MODULE_DIR$" dumb="true">
       <sourceFolder url="file://$MODULE_DIR$/movie-ticket-management-system/student-movie-ticket-management-system/backend/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/student-movie-ticket-management-system/backend/src/main/java" isTestSource="false" />
     </content>
   </component>
 </module>
