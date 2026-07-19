@@ -13,7 +13,6 @@
       <change afterPath="$PROJECT_DIR$/movie-ticket-management-system/student-movie-ticket-management-system/backend/src/main/java/service/payment/CashPayment.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/movie-ticket-management-system/student-movie-ticket-management-system/backend/src/main/java/service/payment/EWalletPayment.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/movie-ticket-management-system/student-movie-ticket-management-system/backend/src/main/java/service/payment/PaymentMethod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,26 +29,26 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/movie-ticket-management-system" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "history": [
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;history&quot;: [
     {
-      "searchQuery": "git clone https://github.com/nguyenhuulan297/movie-ticket-management-system.git",
-      "state": "OPEN",
-      "assignee": "khoadevie"
+      &quot;searchQuery&quot;: &quot;git clone https://github.com/nguyenhuulan297/movie-ticket-management-system.git&quot;,
+      &quot;state&quot;: &quot;OPEN&quot;,
+      &quot;assignee&quot;: &quot;khoadevie&quot;
     }
   ],
-  "lastFilter": {
-    "searchQuery": "git clone https://github.com/nguyenhuulan297/movie-ticket-management-system.git",
-    "state": "OPEN",
-    "assignee": "khoadevie"
+  &quot;lastFilter&quot;: {
+    &quot;searchQuery&quot;: &quot;git clone https://github.com/nguyenhuulan297/movie-ticket-management-system.git&quot;,
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;khoadevie&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/nguyenhuulan297/movie-ticket-management-system.git",
-    "accountId": "aece7ef7-ad29-41dc-a48d-9cacfd040a4a"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/nguyenhuulan297/movie-ticket-management-system.git&quot;,
+    &quot;accountId&quot;: &quot;aece7ef7-ad29-41dc-a48d-9cacfd040a4a&quot;
   }
-}]]></component>
+}</component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -84,6 +83,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "preferences.lookFeel",
     "to.speed.mode.migration.done": "true",
     "vue.rearranger.settings.migration": "true"
@@ -116,6 +116,7 @@
       <workItem from="1774489800961" duration="142000" />
       <workItem from="1774490068386" duration="348000" />
       <workItem from="1784472772193" duration="4412000" />
+      <workItem from="1784477229487" duration="569000" />
     </task>
     <servers />
   </component>
