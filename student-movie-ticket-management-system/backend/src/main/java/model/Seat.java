@@ -7,8 +7,7 @@ public class Seat {
     private SeatStatus status;
     private String showtimeId;
 
-    public Seat() {
-    }
+    public Seat() {}
 
     public Seat(String seatId, String seatNumber, SeatType seatType, SeatStatus status, String showtimeId) {
         this.seatId = seatId;
@@ -18,44 +17,22 @@ public class Seat {
         this.showtimeId = showtimeId;
     }
 
-    public String getSeatId() {
-        return seatId;
-    }
+    public String getSeatId() { return seatId; }
+    public void setSeatId(String seatId) { this.seatId = seatId; }
+    public String getSeatNumber() { return seatNumber; }
+    public void setSeatNumber(String seatNumber) { this.seatNumber = seatNumber; }
+    public SeatType getSeatType() { return seatType; }
+    public void setSeatType(SeatType seatType) { this.seatType = seatType; }
+    public SeatStatus getStatus() { return status; }
+    public void setStatus(SeatStatus status) { this.status = status; }
+    public String getShowtimeId() { return showtimeId; }
+    public void setShowtimeId(String showtimeId) { this.showtimeId = showtimeId; }
 
-    public void setSeatId(String seatId) {
-        this.seatId = seatId;
-    }
-
-    public String getSeatNumber() {
-        return seatNumber;
-    }
-
-    public void setSeatNumber(String seatNumber) {
-        this.seatNumber = seatNumber;
-    }
-
-    public SeatType getSeatType() {
-        return seatType;
-    }
-
-    public void setSeatType(SeatType seatType) {
-        this.seatType = seatType;
-    }
-
-    public SeatStatus getStatus() {
-        return status;
-    }
-
-    public void setStatus(SeatStatus status) {
-        this.status = status;
-    }
-
-    public String getShowtimeId() {
-        return showtimeId;
-    }
-
-    public void setShowtimeId(String showtimeId) {
-        this.showtimeId = showtimeId;
+    /**
+     * Giá ghế sau khi cộng phụ phí theo loại ghế (VIP/Double có phụ phí so với ghế thường).
+     */
+    public double applySurcharge(double basePrice) {
+        return seatType.applySurcharge(basePrice);
     }
 
     @Override

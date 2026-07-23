@@ -1,0 +1,5 @@
+[
+  { "roomId": "RM001", "roomName": "Phòng chiếu số 1", "totalSeats": 50 },
+  { "roomId": "RM002", "roomName": "Phòng chiếu số 2", "totalSeats": 40 },
+  { "roomId": "RM003", "roomName": "Phòng chiếu VIP", "totalSeats": 30 }
+]
