@@ -19,16 +19,12 @@ public class Seat {
 
     public String getSeatId() { return seatId; }
     public void setSeatId(String seatId) { this.seatId = seatId; }
-
     public String getSeatNumber() { return seatNumber; }
     public void setSeatNumber(String seatNumber) { this.seatNumber = seatNumber; }
-
     public SeatType getSeatType() { return seatType; }
     public void setSeatType(SeatType seatType) { this.seatType = seatType; }
-
     public SeatStatus getStatus() { return status; }
     public void setStatus(SeatStatus status) { this.status = status; }
-
     public String getShowtimeId() { return showtimeId; }
     public void setShowtimeId(String showtimeId) { this.showtimeId = showtimeId; }
 

@@ -21,19 +21,14 @@ public class Movie {
 
     public String getMovieId() { return movieId; }
     public void setMovieId(String movieId) { this.movieId = movieId; }
-
     public String getTitle() { return title; }
     public void setTitle(String title) { this.title = title; }
-
     public String getGenre() { return genre; }
     public void setGenre(String genre) { this.genre = genre; }
-
     public int getDuration() { return duration; }
     public void setDuration(int duration) { this.duration = duration; }
-
     public int getAgeLimit() { return ageLimit; }
     public void setAgeLimit(int ageLimit) { this.ageLimit = ageLimit; }
-
     public MovieStatus getStatus() { return status; }
     public void setStatus(MovieStatus status) { this.status = status; }
 

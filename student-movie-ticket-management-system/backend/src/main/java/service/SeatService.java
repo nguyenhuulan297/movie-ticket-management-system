@@ -6,12 +6,10 @@ import repository.SeatRepository;
 import exception.SeatNotFoundException;
 import exception.SeatAlreadyBookedException;
 import org.springframework.stereotype.Service;
-
 import java.util.List;
 
 @Service
 public class SeatService {
-
     private final SeatRepository seatRepository;
 
     public SeatService(SeatRepository seatRepository) {
