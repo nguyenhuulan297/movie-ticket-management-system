@@ -22,19 +22,14 @@ public class Showtime {
 
     public String getShowtimeId() { return showtimeId; }
     public void setShowtimeId(String showtimeId) { this.showtimeId = showtimeId; }
-
     public String getMovieId() { return movieId; }
     public void setMovieId(String movieId) { this.movieId = movieId; }
-
     public CinemaRoom getRoom() { return room; }
     public void setRoom(CinemaRoom room) { this.room = room; }
-
     public String getStartTime() { return startTime; }
     public void setStartTime(String startTime) { this.startTime = startTime; }
-
     public String getEndTime() { return endTime; }
     public void setEndTime(String endTime) { this.endTime = endTime; }
-
     public double getBasePrice() { return basePrice; }
     public void setBasePrice(double basePrice) { this.basePrice = basePrice; }
 

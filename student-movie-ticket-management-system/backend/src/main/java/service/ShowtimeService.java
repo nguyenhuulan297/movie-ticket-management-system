@@ -1,36 +1,26 @@
 package service;
 
-import com.google.gson.JsonArray;
-import com.google.gson.JsonParser;
+import model.Movie;
+import model.MovieStatus;
 import model.Seat;
 import model.Showtime;
-import repository.ShowtimeRepository;
-import utils.FileUtils;
 import org.springframework.stereotype.Service;
-
+import repository.MovieRepository;
+import repository.ShowtimeRepository;
 import java.util.List;
 
 @Service
 public class ShowtimeService {
-    private static final String DEFAULT_MOVIES_FILE_PATH = "data/movies.json";
-    private static final String MOVIE_SHOWING_STATUS = "SHOWING";
-
     private final ShowtimeRepository showtimeRepository;
+    private final MovieRepository movieRepository;
     private final SeatService seatService;
-    private final String moviesFilePath;
 
-    public ShowtimeService(ShowtimeRepository showtimeRepository, SeatService seatService) {
-        this(showtimeRepository, seatService, DEFAULT_MOVIES_FILE_PATH);
-    }
-
-    /**
-     * Cho phép truyền moviesFilePath tùy chỉnh (dùng khi test).
-     * Đọc thẳng movies.json vì module Movie (Thành viên 2) chưa cung cấp MovieService.
-     */
-    public ShowtimeService(ShowtimeRepository showtimeRepository, SeatService seatService, String moviesFilePath) {
+    public ShowtimeService(ShowtimeRepository showtimeRepository,
+                            MovieRepository movieRepository,
+                            SeatService seatService) {
         this.showtimeRepository = showtimeRepository;
+        this.movieRepository = movieRepository;
         this.seatService = seatService;
-        this.moviesFilePath = moviesFilePath;
     }
 
     public List<Showtime> findAll() {
@@ -53,14 +43,8 @@ public class ShowtimeService {
         if (showtime == null || showtime.getMovieId() == null) {
             return false;
         }
-        JsonArray movies = JsonParser.parseString(FileUtils.readJsonFile(moviesFilePath)).getAsJsonArray();
-        for (int i = 0; i < movies.size(); i++) {
-            var movie = movies.get(i).getAsJsonObject();
-            if (showtime.getMovieId().equals(movie.get("movieId").getAsString())) {
-                return MOVIE_SHOWING_STATUS.equals(movie.get("status").getAsString());
-            }
-        }
-        return false;
+        Movie movie = movieRepository.findById(showtime.getMovieId());
+        return movie != null && movie.getStatus() == MovieStatus.SHOWING;
     }
 
     public List<Seat> getAvailableSeats(String showtimeId) {

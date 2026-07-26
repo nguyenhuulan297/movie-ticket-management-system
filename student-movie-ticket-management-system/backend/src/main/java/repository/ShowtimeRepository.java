@@ -5,7 +5,6 @@ import utils.FileUtils;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 import org.springframework.stereotype.Repository;
-
 import java.lang.reflect.Type;
 import java.util.ArrayList;
 import java.util.List;
@@ -14,7 +13,6 @@ import java.util.stream.Collectors;
 @Repository
 public class ShowtimeRepository {
     private static final String DEFAULT_FILE_PATH = "data/showtimes.json";
-
     private final String filePath;
     private final Gson gson = new Gson();
 
