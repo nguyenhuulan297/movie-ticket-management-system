@@ -4,11 +4,13 @@ import model.Ticket;
 import utils.FileUtils;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
+import org.springframework.stereotype.Repository;
 
 import java.lang.reflect.Type;
 import java.util.ArrayList;
 import java.util.List;
 
+@Repository
 public class TicketRepository {
     private static final String FILE_PATH = "data/tickets.json";
     private Gson gson = new Gson();

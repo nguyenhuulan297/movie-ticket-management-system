@@ -5,6 +5,7 @@ import model.Showtime;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.io.TempDir;
+import repository.MovieRepository;
 import repository.SeatRepository;
 import repository.ShowtimeRepository;
 
@@ -50,8 +51,9 @@ class ShowtimeServiceTest {
                 "{\"movieId\":\"MOV004\",\"title\":\"Cô gái đến từ hôm qua\",\"status\":\"STOPPED\"}" +
                 "]";
         Files.writeString(moviesFile, moviesJson);
+        MovieRepository movieRepository = new MovieRepository(moviesFile.toString());
 
-        showtimeService = new ShowtimeService(showtimeRepository, seatService, moviesFile.toString());
+        showtimeService = new ShowtimeService(showtimeRepository, movieRepository, seatService);
     }
 
     @Test
