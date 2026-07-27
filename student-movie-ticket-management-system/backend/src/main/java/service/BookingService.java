@@ -66,7 +66,7 @@ public class BookingService {
         }
 
         // 5. PASS 2: mọi ghế đều hợp lệ -> tiến hành đặt từng ghế và tạo vé tương ứng
-        TicketPricePolicy policy = customerService.getPricePolicy(customer.getCustomerType());
+        ITicketPricePolicy policy = customerService.getPricePolicy(customer.getCustomerType());
         List<Ticket> tickets = new ArrayList<>();
         double totalPrice = 0.0;
         String bookedAt = LocalDateTime.now().toString();

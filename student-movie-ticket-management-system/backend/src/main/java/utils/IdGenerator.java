@@ -41,4 +41,8 @@ public class IdGenerator {
     public static String generatePaymentId() {
         return "PAY" + System.currentTimeMillis();
     }
+
+    public static String generateRoomId() {
+        return "RM" + System.currentTimeMillis();
+    }
 }
