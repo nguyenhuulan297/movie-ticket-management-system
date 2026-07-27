@@ -18,4 +18,8 @@ public class Validator {
             throw new IllegalArgumentException("Giá vé phải lớn hơn 0");
         }
     }
+
+    public static boolean validatePassword(String password) {
+        return password != null && password.length() >= 6;
+    }
 }

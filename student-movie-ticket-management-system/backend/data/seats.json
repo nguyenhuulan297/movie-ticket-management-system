@@ -1,14 +1,1122 @@
 [
-  { "seatId": "SEAT001", "seatNumber": "A1", "seatType": "NORMAL", "status": "AVAILABLE", "showtimeId": "ST001" },
-  { "seatId": "SEAT002", "seatNumber": "A2", "seatType": "NORMAL", "status": "AVAILABLE", "showtimeId": "ST001" },
-  { "seatId": "SEAT003", "seatNumber": "B1", "seatType": "DOUBLE", "status": "AVAILABLE", "showtimeId": "ST001" },
-  { "seatId": "SEAT004", "seatNumber": "C1", "seatType": "VIP", "status": "AVAILABLE", "showtimeId": "ST001" },
-  { "seatId": "SEAT005", "seatNumber": "A1", "seatType": "NORMAL", "status": "AVAILABLE", "showtimeId": "ST002" },
-  { "seatId": "SEAT006", "seatNumber": "A2", "seatType": "NORMAL", "status": "AVAILABLE", "showtimeId": "ST002" },
-  { "seatId": "SEAT007", "seatNumber": "B1", "seatType": "DOUBLE", "status": "AVAILABLE", "showtimeId": "ST002" },
-  { "seatId": "SEAT008", "seatNumber": "C1", "seatType": "VIP", "status": "AVAILABLE", "showtimeId": "ST002" },
-  { "seatId": "SEAT009", "seatNumber": "A1", "seatType": "NORMAL", "status": "AVAILABLE", "showtimeId": "ST003" },
-  { "seatId": "SEAT010", "seatNumber": "B1", "seatType": "DOUBLE", "status": "AVAILABLE", "showtimeId": "ST003" },
-  { "seatId": "SEAT011", "seatNumber": "C1", "seatType": "VIP", "status": "AVAILABLE", "showtimeId": "ST003" },
-  { "seatId": "SEAT012", "seatNumber": "A1", "seatType": "NORMAL", "status": "AVAILABLE", "showtimeId": "ST004" }
+  {
+    "seatId": "SEAT001",
+    "seatNumber": "A1",
+    "seatType": "NORMAL",
+    "status": "AVAILABLE",
+    "showtimeId": "ST001"
+  },
+  {
+    "seatId": "SEAT002",
+    "seatNumber": "A2",
+    "seatType": "NORMAL",
+    "status": "AVAILABLE",
+    "showtimeId": "ST001"
+  },
+  {
+    "seatId": "SEAT003",
+    "seatNumber": "A3",
+    "seatType": "NORMAL",
+    "status": "AVAILABLE",
+    "showtimeId": "ST001"
+  },
+  {
+    "seatId": "SEAT004",
+    "seatNumber": "A4",
+    "seatType": "NORMAL",
+    "status": "AVAILABLE",
+    "showtimeId": "ST001"
+  },
+  {
+    "seatId": "SEAT005",
+    "seatNumber": "A5",
+    "seatType": "NORMAL",
+    "status": "AVAILABLE",
+    "showtimeId": "ST001"
+  },
+  {
+    "seatId": "SEAT006",
+    "seatNumber": "A6",
+    "seatType": "NORMAL",
+    "status": "AVAILABLE",
+    "showtimeId": "ST001"
+  },
+  {
+    "seatId": "SEAT007",
+    "seatNumber": "A7",
+    "seatType": "NORMAL",
+    "status": "AVAILABLE",
+    "showtimeId": "ST001"
+  },
+  {
+    "seatId": "SEAT008",
+    "seatNumber": "A8",
+    "seatType": "NORMAL",
+    "status": "AVAILABLE",
+    "showtimeId": "ST001"
+  },
+  {
+    "seatId": "SEAT009",
+    "seatNumber": "B1",
+    "seatType": "NORMAL",
+    "status": "AVAILABLE",
+    "showtimeId": "ST001"
+  },
+  {
+    "seatId": "SEAT010",
+    "seatNumber": "B2",
+    "seatType": "NORMAL",
+    "status": "AVAILABLE",
+    "showtimeId": "ST001"
+  },
+  {
+    "seatId": "SEAT011",
+    "seatNumber": "B3",
+    "seatType": "NORMAL",
+    "status": "AVAILABLE",
+    "showtimeId": "ST001"
+  },
+  {
+    "seatId": "SEAT012",
+    "seatNumber": "B4",
+    "seatType": "NORMAL",
+    "status": "AVAILABLE",
+    "showtimeId": "ST001"
+  },
+  {
+    "seatId": "SEAT013",
+    "seatNumber": "B5",
+    "seatType": "NORMAL",
+    "status": "AVAILABLE",
+    "showtimeId": "ST001"
+  },
+  {
+    "seatId": "SEAT014",
+    "seatNumber": "B6",
+    "seatType": "NORMAL",
+    "status": "AVAILABLE",
+    "showtimeId": "ST001"
+  },
+  {
+    "seatId": "SEAT015",
+    "seatNumber": "B7",
+    "seatType": "NORMAL",
+    "status": "AVAILABLE",
+    "showtimeId": "ST001"
+  },
+  {
+    "seatId": "SEAT016",
+    "seatNumber": "B8",
+    "seatType": "NORMAL",
+    "status": "AVAILABLE",
+    "showtimeId": "ST001"
+  },
+  {
+    "seatId": "SEAT017",
+    "seatNumber": "C1",
+    "seatType": "NORMAL",
+    "status": "AVAILABLE",
+    "showtimeId": "ST001"
+  },
+  {
+    "seatId": "SEAT018",
+    "seatNumber": "C2",
+    "seatType": "NORMAL",
+    "status": "AVAILABLE",
+    "showtimeId": "ST001"
+  },
+  {
+    "seatId": "SEAT019",
+    "seatNumber": "C3",
+    "seatType": "NORMAL",
+    "status": "AVAILABLE",
+    "showtimeId": "ST001"
+  },
+  {
+    "seatId": "SEAT020",
+    "seatNumber": "C4",
+    "seatType": "NORMAL",
+    "status": "AVAILABLE",
+    "showtimeId": "ST001"
+  },
+  {
+    "seatId": "SEAT021",
+    "seatNumber": "C5",
+    "seatType": "NORMAL",
+    "status": "AVAILABLE",
+    "showtimeId": "ST001"
+  },
+  {
+    "seatId": "SEAT022",
+    "seatNumber": "C6",
+    "seatType": "NORMAL",
+    "status": "AVAILABLE",
+    "showtimeId": "ST001"
+  },
+  {
+    "seatId": "SEAT023",
+    "seatNumber": "C7",
+    "seatType": "NORMAL",
+    "status": "AVAILABLE",
+    "showtimeId": "ST001"
+  },
+  {
+    "seatId": "SEAT024",
+    "seatNumber": "C8",
+    "seatType": "NORMAL",
+    "status": "AVAILABLE",
+    "showtimeId": "ST001"
+  },
+  {
+    "seatId": "SEAT025",
+    "seatNumber": "D1",
+    "seatType": "DOUBLE",
+    "status": "AVAILABLE",
+    "showtimeId": "ST001"
+  },
+  {
+    "seatId": "SEAT026",
+    "seatNumber": "D2",
+    "seatType": "DOUBLE",
+    "status": "AVAILABLE",
+    "showtimeId": "ST001"
+  },
+  {
+    "seatId": "SEAT027",
+    "seatNumber": "D3",
+    "seatType": "DOUBLE",
+    "status": "AVAILABLE",
+    "showtimeId": "ST001"
+  },
+  {
+    "seatId": "SEAT028",
+    "seatNumber": "D4",
+    "seatType": "DOUBLE",
+    "status": "AVAILABLE",
+    "showtimeId": "ST001"
+  },
+  {
+    "seatId": "SEAT029",
+    "seatNumber": "D5",
+    "seatType": "DOUBLE",
+    "status": "AVAILABLE",
+    "showtimeId": "ST001"
+  },
+  {
+    "seatId": "SEAT030",
+    "seatNumber": "D6",
+    "seatType": "DOUBLE",
+    "status": "AVAILABLE",
+    "showtimeId": "ST001"
+  },
+  {
+    "seatId": "SEAT031",
+    "seatNumber": "D7",
+    "seatType": "DOUBLE",
+    "status": "AVAILABLE",
+    "showtimeId": "ST001"
+  },
+  {
+    "seatId": "SEAT032",
+    "seatNumber": "D8",
+    "seatType": "DOUBLE",
+    "status": "AVAILABLE",
+    "showtimeId": "ST001"
+  },
+  {
+    "seatId": "SEAT033",
+    "seatNumber": "E1",
+    "seatType": "VIP",
+    "status": "AVAILABLE",
+    "showtimeId": "ST001"
+  },
+  {
+    "seatId": "SEAT034",
+    "seatNumber": "E2",
+    "seatType": "VIP",
+    "status": "AVAILABLE",
+    "showtimeId": "ST001"
+  },
+  {
+    "seatId": "SEAT035",
+    "seatNumber": "E3",
+    "seatType": "VIP",
+    "status": "AVAILABLE",
+    "showtimeId": "ST001"
+  },
+  {
+    "seatId": "SEAT036",
+    "seatNumber": "E4",
+    "seatType": "VIP",
+    "status": "AVAILABLE",
+    "showtimeId": "ST001"
+  },
+  {
+    "seatId": "SEAT037",
+    "seatNumber": "E5",
+    "seatType": "VIP",
+    "status": "AVAILABLE",
+    "showtimeId": "ST001"
+  },
+  {
+    "seatId": "SEAT038",
+    "seatNumber": "E6",
+    "seatType": "VIP",
+    "status": "AVAILABLE",
+    "showtimeId": "ST001"
+  },
+  {
+    "seatId": "SEAT039",
+    "seatNumber": "E7",
+    "seatType": "VIP",
+    "status": "AVAILABLE",
+    "showtimeId": "ST001"
+  },
+  {
+    "seatId": "SEAT040",
+    "seatNumber": "E8",
+    "seatType": "VIP",
+    "status": "AVAILABLE",
+    "showtimeId": "ST001"
+  },
+  {
+    "seatId": "SEAT041",
+    "seatNumber": "A1",
+    "seatType": "NORMAL",
+    "status": "AVAILABLE",
+    "showtimeId": "ST002"
+  },
+  {
+    "seatId": "SEAT042",
+    "seatNumber": "A2",
+    "seatType": "NORMAL",
+    "status": "AVAILABLE",
+    "showtimeId": "ST002"
+  },
+  {
+    "seatId": "SEAT043",
+    "seatNumber": "A3",
+    "seatType": "NORMAL",
+    "status": "AVAILABLE",
+    "showtimeId": "ST002"
+  },
+  {
+    "seatId": "SEAT044",
+    "seatNumber": "A4",
+    "seatType": "NORMAL",
+    "status": "AVAILABLE",
+    "showtimeId": "ST002"
+  },
+  {
+    "seatId": "SEAT045",
+    "seatNumber": "A5",
+    "seatType": "NORMAL",
+    "status": "AVAILABLE",
+    "showtimeId": "ST002"
+  },
+  {
+    "seatId": "SEAT046",
+    "seatNumber": "A6",
+    "seatType": "NORMAL",
+    "status": "AVAILABLE",
+    "showtimeId": "ST002"
+  },
+  {
+    "seatId": "SEAT047",
+    "seatNumber": "A7",
+    "seatType": "NORMAL",
+    "status": "AVAILABLE",
+    "showtimeId": "ST002"
+  },
+  {
+    "seatId": "SEAT048",
+    "seatNumber": "A8",
+    "seatType": "NORMAL",
+    "status": "AVAILABLE",
+    "showtimeId": "ST002"
+  },
+  {
+    "seatId": "SEAT049",
+    "seatNumber": "B1",
+    "seatType": "NORMAL",
+    "status": "AVAILABLE",
+    "showtimeId": "ST002"
+  },
+  {
+    "seatId": "SEAT050",
+    "seatNumber": "B2",
+    "seatType": "NORMAL",
+    "status": "AVAILABLE",
+    "showtimeId": "ST002"
+  },
+  {
+    "seatId": "SEAT051",
+    "seatNumber": "B3",
+    "seatType": "NORMAL",
+    "status": "AVAILABLE",
+    "showtimeId": "ST002"
+  },
+  {
+    "seatId": "SEAT052",
+    "seatNumber": "B4",
+    "seatType": "NORMAL",
+    "status": "AVAILABLE",
+    "showtimeId": "ST002"
+  },
+  {
+    "seatId": "SEAT053",
+    "seatNumber": "B5",
+    "seatType": "NORMAL",
+    "status": "AVAILABLE",
+    "showtimeId": "ST002"
+  },
+  {
+    "seatId": "SEAT054",
+    "seatNumber": "B6",
+    "seatType": "NORMAL",
+    "status": "AVAILABLE",
+    "showtimeId": "ST002"
+  },
+  {
+    "seatId": "SEAT055",
+    "seatNumber": "B7",
+    "seatType": "NORMAL",
+    "status": "AVAILABLE",
+    "showtimeId": "ST002"
+  },
+  {
+    "seatId": "SEAT056",
+    "seatNumber": "B8",
+    "seatType": "NORMAL",
+    "status": "AVAILABLE",
+    "showtimeId": "ST002"
+  },
+  {
+    "seatId": "SEAT057",
+    "seatNumber": "C1",
+    "seatType": "NORMAL",
+    "status": "AVAILABLE",
+    "showtimeId": "ST002"
+  },
+  {
+    "seatId": "SEAT058",
+    "seatNumber": "C2",
+    "seatType": "NORMAL",
+    "status": "AVAILABLE",
+    "showtimeId": "ST002"
+  },
+  {
+    "seatId": "SEAT059",
+    "seatNumber": "C3",
+    "seatType": "NORMAL",
+    "status": "AVAILABLE",
+    "showtimeId": "ST002"
+  },
+  {
+    "seatId": "SEAT060",
+    "seatNumber": "C4",
+    "seatType": "NORMAL",
+    "status": "AVAILABLE",
+    "showtimeId": "ST002"
+  },
+  {
+    "seatId": "SEAT061",
+    "seatNumber": "C5",
+    "seatType": "NORMAL",
+    "status": "AVAILABLE",
+    "showtimeId": "ST002"
+  },
+  {
+    "seatId": "SEAT062",
+    "seatNumber": "C6",
+    "seatType": "NORMAL",
+    "status": "AVAILABLE",
+    "showtimeId": "ST002"
+  },
+  {
+    "seatId": "SEAT063",
+    "seatNumber": "C7",
+    "seatType": "NORMAL",
+    "status": "AVAILABLE",
+    "showtimeId": "ST002"
+  },
+  {
+    "seatId": "SEAT064",
+    "seatNumber": "C8",
+    "seatType": "NORMAL",
+    "status": "AVAILABLE",
+    "showtimeId": "ST002"
+  },
+  {
+    "seatId": "SEAT065",
+    "seatNumber": "D1",
+    "seatType": "DOUBLE",
+    "status": "AVAILABLE",
+    "showtimeId": "ST002"
+  },
+  {
+    "seatId": "SEAT066",
+    "seatNumber": "D2",
+    "seatType": "DOUBLE",
+    "status": "AVAILABLE",
+    "showtimeId": "ST002"
+  },
+  {
+    "seatId": "SEAT067",
+    "seatNumber": "D3",
+    "seatType": "DOUBLE",
+    "status": "AVAILABLE",
+    "showtimeId": "ST002"
+  },
+  {
+    "seatId": "SEAT068",
+    "seatNumber": "D4",
+    "seatType": "DOUBLE",
+    "status": "AVAILABLE",
+    "showtimeId": "ST002"
+  },
+  {
+    "seatId": "SEAT069",
+    "seatNumber": "D5",
+    "seatType": "DOUBLE",
+    "status": "AVAILABLE",
+    "showtimeId": "ST002"
+  },
+  {
+    "seatId": "SEAT070",
+    "seatNumber": "D6",
+    "seatType": "DOUBLE",
+    "status": "AVAILABLE",
+    "showtimeId": "ST002"
+  },
+  {
+    "seatId": "SEAT071",
+    "seatNumber": "D7",
+    "seatType": "DOUBLE",
+    "status": "AVAILABLE",
+    "showtimeId": "ST002"
+  },
+  {
+    "seatId": "SEAT072",
+    "seatNumber": "D8",
+    "seatType": "DOUBLE",
+    "status": "AVAILABLE",
+    "showtimeId": "ST002"
+  },
+  {
+    "seatId": "SEAT073",
+    "seatNumber": "E1",
+    "seatType": "VIP",
+    "status": "AVAILABLE",
+    "showtimeId": "ST002"
+  },
+  {
+    "seatId": "SEAT074",
+    "seatNumber": "E2",
+    "seatType": "VIP",
+    "status": "AVAILABLE",
+    "showtimeId": "ST002"
+  },
+  {
+    "seatId": "SEAT075",
+    "seatNumber": "E3",
+    "seatType": "VIP",
+    "status": "AVAILABLE",
+    "showtimeId": "ST002"
+  },
+  {
+    "seatId": "SEAT076",
+    "seatNumber": "E4",
+    "seatType": "VIP",
+    "status": "AVAILABLE",
+    "showtimeId": "ST002"
+  },
+  {
+    "seatId": "SEAT077",
+    "seatNumber": "E5",
+    "seatType": "VIP",
+    "status": "AVAILABLE",
+    "showtimeId": "ST002"
+  },
+  {
+    "seatId": "SEAT078",
+    "seatNumber": "E6",
+    "seatType": "VIP",
+    "status": "AVAILABLE",
+    "showtimeId": "ST002"
+  },
+  {
+    "seatId": "SEAT079",
+    "seatNumber": "E7",
+    "seatType": "VIP",
+    "status": "AVAILABLE",
+    "showtimeId": "ST002"
+  },
+  {
+    "seatId": "SEAT080",
+    "seatNumber": "E8",
+    "seatType": "VIP",
+    "status": "AVAILABLE",
+    "showtimeId": "ST002"
+  },
+  {
+    "seatId": "SEAT081",
+    "seatNumber": "A1",
+    "seatType": "NORMAL",
+    "status": "AVAILABLE",
+    "showtimeId": "ST003"
+  },
+  {
+    "seatId": "SEAT082",
+    "seatNumber": "A2",
+    "seatType": "NORMAL",
+    "status": "AVAILABLE",
+    "showtimeId": "ST003"
+  },
+  {
+    "seatId": "SEAT083",
+    "seatNumber": "A3",
+    "seatType": "NORMAL",
+    "status": "AVAILABLE",
+    "showtimeId": "ST003"
+  },
+  {
+    "seatId": "SEAT084",
+    "seatNumber": "A4",
+    "seatType": "NORMAL",
+    "status": "AVAILABLE",
+    "showtimeId": "ST003"
+  },
+  {
+    "seatId": "SEAT085",
+    "seatNumber": "A5",
+    "seatType": "NORMAL",
+    "status": "AVAILABLE",
+    "showtimeId": "ST003"
+  },
+  {
+    "seatId": "SEAT086",
+    "seatNumber": "A6",
+    "seatType": "NORMAL",
+    "status": "AVAILABLE",
+    "showtimeId": "ST003"
+  },
+  {
+    "seatId": "SEAT087",
+    "seatNumber": "A7",
+    "seatType": "NORMAL",
+    "status": "AVAILABLE",
+    "showtimeId": "ST003"
+  },
+  {
+    "seatId": "SEAT088",
+    "seatNumber": "A8",
+    "seatType": "NORMAL",
+    "status": "AVAILABLE",
+    "showtimeId": "ST003"
+  },
+  {
+    "seatId": "SEAT089",
+    "seatNumber": "B1",
+    "seatType": "NORMAL",
+    "status": "AVAILABLE",
+    "showtimeId": "ST003"
+  },
+  {
+    "seatId": "SEAT090",
+    "seatNumber": "B2",
+    "seatType": "NORMAL",
+    "status": "AVAILABLE",
+    "showtimeId": "ST003"
+  },
+  {
+    "seatId": "SEAT091",
+    "seatNumber": "B3",
+    "seatType": "NORMAL",
+    "status": "AVAILABLE",
+    "showtimeId": "ST003"
+  },
+  {
+    "seatId": "SEAT092",
+    "seatNumber": "B4",
+    "seatType": "NORMAL",
+    "status": "AVAILABLE",
+    "showtimeId": "ST003"
+  },
+  {
+    "seatId": "SEAT093",
+    "seatNumber": "B5",
+    "seatType": "NORMAL",
+    "status": "AVAILABLE",
+    "showtimeId": "ST003"
+  },
+  {
+    "seatId": "SEAT094",
+    "seatNumber": "B6",
+    "seatType": "NORMAL",
+    "status": "AVAILABLE",
+    "showtimeId": "ST003"
+  },
+  {
+    "seatId": "SEAT095",
+    "seatNumber": "B7",
+    "seatType": "NORMAL",
+    "status": "AVAILABLE",
+    "showtimeId": "ST003"
+  },
+  {
+    "seatId": "SEAT096",
+    "seatNumber": "B8",
+    "seatType": "NORMAL",
+    "status": "AVAILABLE",
+    "showtimeId": "ST003"
+  },
+  {
+    "seatId": "SEAT097",
+    "seatNumber": "C1",
+    "seatType": "NORMAL",
+    "status": "AVAILABLE",
+    "showtimeId": "ST003"
+  },
+  {
+    "seatId": "SEAT098",
+    "seatNumber": "C2",
+    "seatType": "NORMAL",
+    "status": "AVAILABLE",
+    "showtimeId": "ST003"
+  },
+  {
+    "seatId": "SEAT099",
+    "seatNumber": "C3",
+    "seatType": "NORMAL",
+    "status": "AVAILABLE",
+    "showtimeId": "ST003"
+  },
+  {
+    "seatId": "SEAT100",
+    "seatNumber": "C4",
+    "seatType": "NORMAL",
+    "status": "AVAILABLE",
+    "showtimeId": "ST003"
+  },
+  {
+    "seatId": "SEAT101",
+    "seatNumber": "C5",
+    "seatType": "NORMAL",
+    "status": "AVAILABLE",
+    "showtimeId": "ST003"
+  },
+  {
+    "seatId": "SEAT102",
+    "seatNumber": "C6",
+    "seatType": "NORMAL",
+    "status": "AVAILABLE",
+    "showtimeId": "ST003"
+  },
+  {
+    "seatId": "SEAT103",
+    "seatNumber": "C7",
+    "seatType": "NORMAL",
+    "status": "AVAILABLE",
+    "showtimeId": "ST003"
+  },
+  {
+    "seatId": "SEAT104",
+    "seatNumber": "C8",
+    "seatType": "NORMAL",
+    "status": "AVAILABLE",
+    "showtimeId": "ST003"
+  },
+  {
+    "seatId": "SEAT105",
+    "seatNumber": "D1",
+    "seatType": "DOUBLE",
+    "status": "AVAILABLE",
+    "showtimeId": "ST003"
+  },
+  {
+    "seatId": "SEAT106",
+    "seatNumber": "D2",
+    "seatType": "DOUBLE",
+    "status": "AVAILABLE",
+    "showtimeId": "ST003"
+  },
+  {
+    "seatId": "SEAT107",
+    "seatNumber": "D3",
+    "seatType": "DOUBLE",
+    "status": "AVAILABLE",
+    "showtimeId": "ST003"
+  },
+  {
+    "seatId": "SEAT108",
+    "seatNumber": "D4",
+    "seatType": "DOUBLE",
+    "status": "AVAILABLE",
+    "showtimeId": "ST003"
+  },
+  {
+    "seatId": "SEAT109",
+    "seatNumber": "D5",
+    "seatType": "DOUBLE",
+    "status": "AVAILABLE",
+    "showtimeId": "ST003"
+  },
+  {
+    "seatId": "SEAT110",
+    "seatNumber": "D6",
+    "seatType": "DOUBLE",
+    "status": "AVAILABLE",
+    "showtimeId": "ST003"
+  },
+  {
+    "seatId": "SEAT111",
+    "seatNumber": "D7",
+    "seatType": "DOUBLE",
+    "status": "AVAILABLE",
+    "showtimeId": "ST003"
+  },
+  {
+    "seatId": "SEAT112",
+    "seatNumber": "D8",
+    "seatType": "DOUBLE",
+    "status": "AVAILABLE",
+    "showtimeId": "ST003"
+  },
+  {
+    "seatId": "SEAT113",
+    "seatNumber": "E1",
+    "seatType": "VIP",
+    "status": "AVAILABLE",
+    "showtimeId": "ST003"
+  },
+  {
+    "seatId": "SEAT114",
+    "seatNumber": "E2",
+    "seatType": "VIP",
+    "status": "AVAILABLE",
+    "showtimeId": "ST003"
+  },
+  {
+    "seatId": "SEAT115",
+    "seatNumber": "E3",
+    "seatType": "VIP",
+    "status": "AVAILABLE",
+    "showtimeId": "ST003"
+  },
+  {
+    "seatId": "SEAT116",
+    "seatNumber": "E4",
+    "seatType": "VIP",
+    "status": "AVAILABLE",
+    "showtimeId": "ST003"
+  },
+  {
+    "seatId": "SEAT117",
+    "seatNumber": "E5",
+    "seatType": "VIP",
+    "status": "AVAILABLE",
+    "showtimeId": "ST003"
+  },
+  {
+    "seatId": "SEAT118",
+    "seatNumber": "E6",
+    "seatType": "VIP",
+    "status": "AVAILABLE",
+    "showtimeId": "ST003"
+  },
+  {
+    "seatId": "SEAT119",
+    "seatNumber": "E7",
+    "seatType": "VIP",
+    "status": "AVAILABLE",
+    "showtimeId": "ST003"
+  },
+  {
+    "seatId": "SEAT120",
+    "seatNumber": "E8",
+    "seatType": "VIP",
+    "status": "AVAILABLE",
+    "showtimeId": "ST003"
+  },
+  {
+    "seatId": "SEAT121",
+    "seatNumber": "A1",
+    "seatType": "NORMAL",
+    "status": "AVAILABLE",
+    "showtimeId": "ST004"
+  },
+  {
+    "seatId": "SEAT122",
+    "seatNumber": "A2",
+    "seatType": "NORMAL",
+    "status": "AVAILABLE",
+    "showtimeId": "ST004"
+  },
+  {
+    "seatId": "SEAT123",
+    "seatNumber": "A3",
+    "seatType": "NORMAL",
+    "status": "AVAILABLE",
+    "showtimeId": "ST004"
+  },
+  {
+    "seatId": "SEAT124",
+    "seatNumber": "A4",
+    "seatType": "NORMAL",
+    "status": "AVAILABLE",
+    "showtimeId": "ST004"
+  },
+  {
+    "seatId": "SEAT125",
+    "seatNumber": "A5",
+    "seatType": "NORMAL",
+    "status": "AVAILABLE",
+    "showtimeId": "ST004"
+  },
+  {
+    "seatId": "SEAT126",
+    "seatNumber": "A6",
+    "seatType": "NORMAL",
+    "status": "AVAILABLE",
+    "showtimeId": "ST004"
+  },
+  {
+    "seatId": "SEAT127",
+    "seatNumber": "A7",
+    "seatType": "NORMAL",
+    "status": "AVAILABLE",
+    "showtimeId": "ST004"
+  },
+  {
+    "seatId": "SEAT128",
+    "seatNumber": "A8",
+    "seatType": "NORMAL",
+    "status": "AVAILABLE",
+    "showtimeId": "ST004"
+  },
+  {
+    "seatId": "SEAT129",
+    "seatNumber": "B1",
+    "seatType": "NORMAL",
+    "status": "AVAILABLE",
+    "showtimeId": "ST004"
+  },
+  {
+    "seatId": "SEAT130",
+    "seatNumber": "B2",
+    "seatType": "NORMAL",
+    "status": "AVAILABLE",
+    "showtimeId": "ST004"
+  },
+  {
+    "seatId": "SEAT131",
+    "seatNumber": "B3",
+    "seatType": "NORMAL",
+    "status": "AVAILABLE",
+    "showtimeId": "ST004"
+  },
+  {
+    "seatId": "SEAT132",
+    "seatNumber": "B4",
+    "seatType": "NORMAL",
+    "status": "AVAILABLE",
+    "showtimeId": "ST004"
+  },
+  {
+    "seatId": "SEAT133",
+    "seatNumber": "B5",
+    "seatType": "NORMAL",
+    "status": "AVAILABLE",
+    "showtimeId": "ST004"
+  },
+  {
+    "seatId": "SEAT134",
+    "seatNumber": "B6",
+    "seatType": "NORMAL",
+    "status": "AVAILABLE",
+    "showtimeId": "ST004"
+  },
+  {
+    "seatId": "SEAT135",
+    "seatNumber": "B7",
+    "seatType": "NORMAL",
+    "status": "AVAILABLE",
+    "showtimeId": "ST004"
+  },
+  {
+    "seatId": "SEAT136",
+    "seatNumber": "B8",
+    "seatType": "NORMAL",
+    "status": "AVAILABLE",
+    "showtimeId": "ST004"
+  },
+  {
+    "seatId": "SEAT137",
+    "seatNumber": "C1",
+    "seatType": "NORMAL",
+    "status": "AVAILABLE",
+    "showtimeId": "ST004"
+  },
+  {
+    "seatId": "SEAT138",
+    "seatNumber": "C2",
+    "seatType": "NORMAL",
+    "status": "AVAILABLE",
+    "showtimeId": "ST004"
+  },
+  {
+    "seatId": "SEAT139",
+    "seatNumber": "C3",
+    "seatType": "NORMAL",
+    "status": "AVAILABLE",
+    "showtimeId": "ST004"
+  },
+  {
+    "seatId": "SEAT140",
+    "seatNumber": "C4",
+    "seatType": "NORMAL",
+    "status": "AVAILABLE",
+    "showtimeId": "ST004"
+  },
+  {
+    "seatId": "SEAT141",
+    "seatNumber": "C5",
+    "seatType": "NORMAL",
+    "status": "AVAILABLE",
+    "showtimeId": "ST004"
+  },
+  {
+    "seatId": "SEAT142",
+    "seatNumber": "C6",
+    "seatType": "NORMAL",
+    "status": "AVAILABLE",
+    "showtimeId": "ST004"
+  },
+  {
+    "seatId": "SEAT143",
+    "seatNumber": "C7",
+    "seatType": "NORMAL",
+    "status": "AVAILABLE",
+    "showtimeId": "ST004"
+  },
+  {
+    "seatId": "SEAT144",
+    "seatNumber": "C8",
+    "seatType": "NORMAL",
+    "status": "AVAILABLE",
+    "showtimeId": "ST004"
+  },
+  {
+    "seatId": "SEAT145",
+    "seatNumber": "D1",
+    "seatType": "DOUBLE",
+    "status": "AVAILABLE",
+    "showtimeId": "ST004"
+  },
+  {
+    "seatId": "SEAT146",
+    "seatNumber": "D2",
+    "seatType": "DOUBLE",
+    "status": "AVAILABLE",
+    "showtimeId": "ST004"
+  },
+  {
+    "seatId": "SEAT147",
+    "seatNumber": "D3",
+    "seatType": "DOUBLE",
+    "status": "AVAILABLE",
+    "showtimeId": "ST004"
+  },
+  {
+    "seatId": "SEAT148",
+    "seatNumber": "D4",
+    "seatType": "DOUBLE",
+    "status": "AVAILABLE",
+    "showtimeId": "ST004"
+  },
+  {
+    "seatId": "SEAT149",
+    "seatNumber": "D5",
+    "seatType": "DOUBLE",
+    "status": "AVAILABLE",
+    "showtimeId": "ST004"
+  },
+  {
+    "seatId": "SEAT150",
+    "seatNumber": "D6",
+    "seatType": "DOUBLE",
+    "status": "AVAILABLE",
+    "showtimeId": "ST004"
+  },
+  {
+    "seatId": "SEAT151",
+    "seatNumber": "D7",
+    "seatType": "DOUBLE",
+    "status": "AVAILABLE",
+    "showtimeId": "ST004"
+  },
+  {
+    "seatId": "SEAT152",
+    "seatNumber": "D8",
+    "seatType": "DOUBLE",
+    "status": "AVAILABLE",
+    "showtimeId": "ST004"
+  },
+  {
+    "seatId": "SEAT153",
+    "seatNumber": "E1",
+    "seatType": "VIP",
+    "status": "AVAILABLE",
+    "showtimeId": "ST004"
+  },
+  {
+    "seatId": "SEAT154",
+    "seatNumber": "E2",
+    "seatType": "VIP",
+    "status": "AVAILABLE",
+    "showtimeId": "ST004"
+  },
+  {
+    "seatId": "SEAT155",
+    "seatNumber": "E3",
+    "seatType": "VIP",
+    "status": "AVAILABLE",
+    "showtimeId": "ST004"
+  },
+  {
+    "seatId": "SEAT156",
+    "seatNumber": "E4",
+    "seatType": "VIP",
+    "status": "AVAILABLE",
+    "showtimeId": "ST004"
+  },
+  {
+    "seatId": "SEAT157",
+    "seatNumber": "E5",
+    "seatType": "VIP",
+    "status": "AVAILABLE",
+    "showtimeId": "ST004"
+  },
+  {
+    "seatId": "SEAT158",
+    "seatNumber": "E6",
+    "seatType": "VIP",
+    "status": "AVAILABLE",
+    "showtimeId": "ST004"
+  },
+  {
+    "seatId": "SEAT159",
+    "seatNumber": "E7",
+    "seatType": "VIP",
+    "status": "AVAILABLE",
+    "showtimeId": "ST004"
+  },
+  {
+    "seatId": "SEAT160",
+    "seatNumber": "E8",
+    "seatType": "VIP",
+    "status": "AVAILABLE",
+    "showtimeId": "ST004"
+  }
 ]

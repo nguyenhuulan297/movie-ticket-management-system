@@ -2,12 +2,10 @@ package handler;
 
 import model.Customer;
 import model.CustomerType;
-import model.NormalCustomer;
-import model.StudentCustomer;
-import model.VIPCustomer;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+import service.CustomerFactory;
 import service.CustomerService;
 
 import java.util.List;
@@ -24,7 +22,9 @@ public class CustomerHandler {
 
     @GetMapping
     public List<Customer> getAll() {
-        return customerService.findAll();
+        List<Customer> customers = customerService.findAll();
+        customers.forEach(c -> c.setPassword(null));
+        return customers;
     }
 
     @GetMapping("/{id}")
@@ -34,6 +34,7 @@ public class CustomerHandler {
             return ResponseEntity.status(HttpStatus.NOT_FOUND)
                     .body("Không tìm thấy khách hàng với ID: " + id);
         }
+        customer.setPassword(null);
         return ResponseEntity.ok(customer);
     }
 
@@ -42,6 +43,7 @@ public class CustomerHandler {
         try {
             Customer customer = toCustomer(request);
             Customer created = customerService.create(customer);
+            created.setPassword(null);
             return ResponseEntity.status(HttpStatus.CREATED).body(created);
         } catch (IllegalArgumentException e) {
             return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(e.getMessage());
@@ -49,17 +51,9 @@ public class CustomerHandler {
     }
 
     private Customer toCustomer(CustomerRequest request) {
-        CustomerType type = request.getCustomerType() != null ? request.getCustomerType() : CustomerType.NORMAL;
-        switch (type) {
-            case STUDENT:
-                return new StudentCustomer(null, request.getFullName(), request.getPhone(), request.getEmail(),
-                        request.getStudentId(), request.getSchoolName());
-            case VIP:
-                return new VIPCustomer(null, request.getFullName(), request.getPhone(), request.getEmail(),
-                        request.getMemberSince(), request.getPointBalance());
-            default:
-                return new NormalCustomer(null, request.getFullName(), request.getPhone(), request.getEmail());
-        }
+        return CustomerFactory.create(request.getCustomerType(), request.getFullName(), request.getPhone(),
+                request.getEmail(), request.getStudentId(), request.getSchoolName(),
+                request.getMemberSince(), request.getPointBalance());
     }
 
     // DTO cho request body tạo khách hàng

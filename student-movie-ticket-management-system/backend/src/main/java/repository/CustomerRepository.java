@@ -48,6 +48,16 @@ public class CustomerRepository {
                 .orElse(null);
     }
 
+    public Customer findByEmail(String email) {
+        if (email == null) {
+            return null;
+        }
+        return findAll().stream()
+                .filter(c -> email.equalsIgnoreCase(c.getEmail()))
+                .findFirst()
+                .orElse(null);
+    }
+
     public Customer save(Customer customer) {
         List<Customer> customers = findAll();
         if (customer.getUserId() == null || customer.getUserId().isBlank()) {

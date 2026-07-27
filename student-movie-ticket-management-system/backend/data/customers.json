@@ -4,6 +4,7 @@
     "fullName": "Nguyễn Văn An",
     "phone": "0901234567",
     "email": "an.nguyen@email.com",
+    "password": "My31jNanFlv2JCw6+Kbzqg==:SSTZoWwANFYRYljFY6Q6HyyIjEbxyq4zYqn6rVg/f/k=",
     "customerType": "NORMAL"
   },
   {
@@ -11,6 +12,7 @@
     "fullName": "Trần Thị Bình",
     "phone": "0912345678",
     "email": "binh.tran@email.com",
+    "password": "ePjfAr2j/sVJ4dEPmKsYTw==:K01qpM+yke0IRgSN1SY4/4MtnwKGFtOiE3AcUIqu8Cg=",
     "customerType": "NORMAL"
   },
   {
@@ -18,6 +20,7 @@
     "fullName": "Lê Minh Cường",
     "phone": "0923456789",
     "email": "cuong.le@student.edu.vn",
+    "password": "cm0jx9RW84xT10KOiATRSw==:eFtESeJ7x/cUlWGlzTNxkHVwQXhTdkDkq0hvkvch59w=",
     "customerType": "STUDENT",
     "studentId": "SV123456",
     "schoolName": "Đại học Bách Khoa"
@@ -27,6 +30,7 @@
     "fullName": "Phạm Thị Dung",
     "phone": "0934567890",
     "email": "dung.pham@student.edu.vn",
+    "password": "RpKn2r8x2elvwdSY2zTUJg==:4Qb4J3dWZ1wpJLUBBjfzkex9t9bHbH9znIiYKjiq1mY=",
     "customerType": "STUDENT",
     "studentId": "SV654321",
     "schoolName": "Đại học Khoa học Tự nhiên"
@@ -36,6 +40,7 @@
     "fullName": "Hoàng Văn Em",
     "phone": "0945678901",
     "email": "em.hoang@vip.com",
+    "password": "T3G087526Yp+hFUkmFVi0Q==:FbfIN4fZCSzs9cS8cqUZ/MSd77vH41iCj1kRxtW55a4=",
     "customerType": "VIP",
     "memberSince": "2024-01-15",
     "pointBalance": 350

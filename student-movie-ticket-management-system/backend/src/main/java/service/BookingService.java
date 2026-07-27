@@ -40,6 +40,7 @@ public class BookingService {
         if (customer == null) {
             throw new CustomerNotFoundException("Không tìm thấy khách hàng với ID: " + customerId);
         }
+        customer.setPassword(null); // không lưu/serialize mật khẩu vào Ticket/Booking
 
         // 2. Kiểm tra showtime
         Showtime showtime = showtimeService.findById(showtimeId);
