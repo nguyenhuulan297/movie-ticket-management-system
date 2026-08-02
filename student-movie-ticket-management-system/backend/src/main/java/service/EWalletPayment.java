@@ -2,6 +2,7 @@ package service;
 
 import exception.PaymentFailedException;
 import model.Ticket;
+import model.PaymentStatus;
 
 import java.util.Random;
 
@@ -19,7 +20,12 @@ public class EWalletPayment implements IPaymentMethod {
 
     @Override
     public void processPayment(Ticket ticket, double amount) throws PaymentFailedException {
-        if (random.nextDouble() >= 0.8) {
+        boolean success = random.nextDouble() < 0.8;
+        if (success) {
+            ticket.setPaymentStatus(PaymentStatus.PAID);
+            System.out.println("Thanh toán ví điện tử thành công cho vé: " + ticket.getTicketId());
+        } else {
+            ticket.setPaymentStatus(PaymentStatus.FAILED);
             throw new PaymentFailedException("Giao dịch ví điện tử thất bại, vui lòng thử lại");
         }
     }

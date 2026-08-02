@@ -2,6 +2,7 @@ package service;
 
 import exception.PaymentFailedException;
 import model.Ticket;
+import model.PaymentStatus;
 
 import java.util.Random;
 
@@ -19,7 +20,12 @@ public class BankTransferPayment implements IPaymentMethod {
 
     @Override
     public void processPayment(Ticket ticket, double amount) throws PaymentFailedException {
-        if (random.nextDouble() >= 0.8) {
+        boolean success = random.nextDouble() < 0.8; // 80% thành công
+        if (success) {
+            ticket.setPaymentStatus(PaymentStatus.PAID);
+            System.out.println("Chuyển khoản thành công cho vé: " + ticket.getTicketId());
+        } else {
+            ticket.setPaymentStatus(PaymentStatus.FAILED);
             throw new PaymentFailedException("Giao dịch chuyển khoản thất bại, vui lòng thử lại");
         }
     }
