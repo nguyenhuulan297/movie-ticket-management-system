@@ -9,7 +9,6 @@ import type { CustomerType } from "../types";
 const TYPE_OPTIONS: { value: CustomerType; label: string; hint: string }[] = [
   { value: "NORMAL", label: "Khách thường", hint: "Không giảm giá vé" },
   { value: "STUDENT", label: "Sinh viên", hint: "Giảm 20% giá vé" },
-  { value: "VIP", label: "Thành viên VIP", hint: "Giảm 30% giá vé" },
 ];
 
 export function RegisterPage() {
@@ -146,7 +145,7 @@ export function RegisterPage() {
 
         <div>
           <span className="mb-2 block text-sm font-medium text-slate-300">Loại khách hàng</span>
-          <div className="grid grid-cols-3 gap-2">
+          <div className="grid grid-cols-2 gap-2">
             {TYPE_OPTIONS.map((opt) => (
               <button
                 type="button"
